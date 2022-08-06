@@ -1,0 +1,24 @@
+.table td{
+   color:white;
+   font-size: 30px;
+   padding: 10px;
+}
+.table #input{
+    height:30px;
+}
+button{
+    width:30%;
+    font-size:20px;
+    font-weight:bold;
+    height:50px;
+    border:none;
+    background-color: chartreuse;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: blueviolet;
+    color:wheat;
+    transition: 0.8s;
+}

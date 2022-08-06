@@ -1,0 +1,26 @@
+.nav{
+    padding:20px;
+    background-color:salmon;
+   
+}
+.nav #home{
+    text-decoration: none;
+    color:rgb(11, 10, 10);
+    float:right;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav #logout{
+    text-decoration: none;
+    color:rgb(10, 9, 9);
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav #add{
+    text-decoration: none;
+    color:rgb(9, 1, 1);
+    float:right;
+    font-size: 25px;
+    padding-right: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+<!doctype html> 
+<html> 
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='contact.css') }}"/>
+    </head>
+ <body style="background-color:black;"> 
+    {% include 'nav.html' %}
+ <h2 style = "text align: center;">Registration Form</h2> 
+ <form action = "http://localhost:5000/add" method = "POST" > 
+ 
+  <center>
+ <fieldset style="width:50%;"> 
+ <div style = "font-size:18px;" fontweight:bold; margin-left:150px;> 
+    <table class="table"  align="center">
+        <tr><td>{{ form.name.label }}    </td><td id="input" type="input">   {{ form.name }} </td></tr>
+
+ <tr><td>{{ form.usn.label }}     </td><td id="input" >    {{ form.usn}} </td></tr>
+
+ <tr><td>{{ form.email.label }}    </td><td id="input" >    {{ form.email}} </td></tr>
+
+ <tr><td>{{ form.branch.label }}   </td><td id="input" type="input">   {{ form.branch }} </td></tr>
+
+ <tr><td>{{ form.year.label }}     </td><td id="input">     {{ form.year }}</td></tr> 
+<tr><td>{{ form.college.label}}   </td><td id="input">     {{ form.college }} </td></tr>
+</table> <br><br> 
+<div align="center"><button type="submit">Submit</button></div>
+ <!--<center><button>{{ form.submit }} </button></center>-->
+
+ </div> 
+ 
+ </fieldset> 
+</center>
+ </form> 
+ </body> 
+</html>
